@@ -1,1 +1,138 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link In Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <style>
+      html {
+        min-height: 100%;
+      }
+      body {
+        min-height: 100%;
+        padding: 40px 0;
+        background: linear-gradient(195deg, #500cb6, #3b17a4, #291b90, #181c7c, #0b1a68, #041753, #03133f, #050b2b); /* made at https://learnui.design/tools/gradient-generator.html */
+        color: rgba(255, 255, 255, 1.0);
+      }
+      a {
+        color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
+        font-family: Roboto;
+      }
+      .main-container {
+        width: 640px;
+        margin: auto;
+      }
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+        font-family: Merriweather;
+      }
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+      }
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        border-radius: 128px;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .item {
+        background-color: rgba(150, 187, 255, 0.288);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 100px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(28, 3, 75, 0.5);
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="avatar-image" src="thumbnails/mug.png" alt="Headshot of former NBA player Aaron Brooks">
+      </div>
+      <div class="name-row">
+        Maurice Ford
+      </div>
+      <div class="social-icons-row">
+        <a href="https://github.com/jo-jo-x" target="_blank">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+
+        <a href="https://x.com/Jo_Jo_X" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/jojox.chi/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@Jo_Jo_X/featured" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+      <div class="links-row">
+        <div class="item">
+          <img class="thumbnail" src="thumbnails/gfile.png">
+
+          <a class="link-text" href="https://www.gamefile.news/" target="_blank">
+            Steven Totilo's Game File
+          </a>
+        </div>
+        <div class="item">
+          <img class="thumbnail" src="thumbnails/rap.png">
+
+          <a class="link-text" href="https://donwill.substack.com/" target="_blank">
+            Donwill's The Almanac of Rap
+          </a>
+        </div>
+        <div class="item">
+          <img class="thumbnail" src="thumbnails/bab.png">
+
+          <a class="link-text" href="https://www.blogabull.com/" target="_blank">
+            Blog a Bull
+          </a>
+        </div>
+        <div class="item">
+          <img class="thumbnail" src="thumbnails/gsoft.ico">
+
+          <a class="link-text" href="https://gamesoftrobo.ghost.io/" target="_blank">
+            The Gamesoft Robo Fun Club
+          </a>
+        </div>
+        <div class="item">
+          <img class="thumbnail" src="thumbnails/klip.jpg">
+
+          <a class="link-text" href="https://www.kenklippenstein.com/" target="_blank">
+            Ken Klippenstein
+          </a>
+        </div>
+      </div> <!--links-row-->
+    </div> <!--main-container-->
+  </body>
+</html>
